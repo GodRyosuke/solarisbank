@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+	font-family:Arial, sans-serif;
+	-webkit-font-smoothing:antialiased;
+	background:#7D3A61;
+	text-align:center;
+}
+
+h1{
+	margin:70px 0;
+	color:#FBD068;
+	font-size:3em;
+	font-weight:bold;
+}
+
+table{
+	margin:0 auto;
+	font-size:1.1em;
+	border-collapse:separate;
+	border-spacing:1px;
+}
+
+th, td{
+	padding:10px 25px;
+}
+
+th{
+	background:#A76188;
+	color:#FFF;
+}
+
+td{
+	background:#FFF;
+	color:#503A47;
+}
+
+.target td, td.target{
+	background:#E8E8E8;
+}

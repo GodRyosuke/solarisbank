@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+	font-family: Helvetica,Arial,sans-serif;
+	-webkit-font-smoothing: antialiased;
+	background:#484848;
+}
+
+#wrapper{
+	width:1000px;
+	margin:0 auto;
+}
+
+h1{
+	margin:50px 0;
+	color:#DADADA;
+	font-size:5em;
+	font-weight:normal;
+	text-align:center;
+	font-weight:100;
+}
+
+main{
+	overflow:hidden;
+	margin-bottom:50px;
+	display:block;
+}
+
+main div{
+	width:199px;
+	background:#5D5D5D;
+	color:#CACACA;
+	float:left;
+	margin-right:1px;
+}
+
+main p{
+	padding:15px;
+	line-height:1.5em;
+}
